@@ -1,10 +1,12 @@
 import styles from './main.module.css';
 
-function Animal(props) {
+function Animal({ name, number, eats }) {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <p>{props.number}</p>
+      <div>
+        <h2>{name}</h2>
+        <p>{number}</p>
+      </div>
     </div>
   )
 }
